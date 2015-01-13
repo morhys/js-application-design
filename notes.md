@@ -26,3 +26,17 @@ JSON BASED DATA STORES **
 ** LAMBDA **
 
 A lambda is a function that is used as data. As such, it can be used the same way any other expression can: as a parameter for another function, the return value of a function, or anywhere you might use a literal value.
+
+	In JavaScript, lambdas are commonly used to:
+
+	- Perform operations on the other arguments passed in (as demonstrated earlier).
+
+	- Attach event handlers for DOM interactions.
+
+	- Pass in a callback function to be executed when the current function is complete.
+
+	- Wrap existing functions with additional functionality (often used to implement cross-cutting concerns, such as logging). A function that adds functionality to another function is called a function decorator.
+
+	- Take a function that requires multiple parameters, and return a function that requires fewer parameters—for example, by fixing one or more of the parameters to specific values. (See “Partial Application and Currying”.)
+
+	- Return a function from another function. For example, you might have a function that takes an argument and returns a curried function that applies that argument in a predetermined calculation.
